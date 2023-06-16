@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "UTF-8">
+	<html lang= "pt-br">
+	
+    <title> Sistema Horário</title>
+<body>
+
+	<form method="GET" >
+<h1> Cadastro Turmas CEEP </h1>
+ 
+<div> <h3> <br> Número da sala: <input type="number"><br>
+ <br> Professores coordenadores: <input type="text"><br>
+ <br> Coordenador do curso: <input type="text" name= ><br>
+ <br> Curso: <input type="text" ><br>
+ <br> Alunos responsáveis : <input type="text" name= ><br>
+ <br> Número de alunos: <input type="text" ><br></h3>
+
+  <br> <input type="button" value="Cadastrar Turma" style="width: 150px; height: 90px;" ><br>
+   <br> <input type="button" value="Gerar Horário" style="width: 150px; height: 50px;" ><br>
+   
+<style type="text/css">
+body{
+	background-color: #A52A2A;
+}
+input{
+  width:200px;
+    height:50px;
+    border:solid 3px;
+}
+
+h1{
+  font-style: italic;
+  text-align: center;
+}
+
+h3{
+font-size:20px;
+}
+
+div {
+    width: 1000px;
+    margin: 0 auto;
+	color:white;
+}
+
+</style>
+</head>
+</div>
+</form>
+</body>
+</html>
